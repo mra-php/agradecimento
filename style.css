@@ -1,0 +1,42 @@
+*{
+    padding:0;
+    margin:0;
+    background-color:#fa93fa;}
+.container{
+    height: 100vh;
+    width:100vw;
+    color:#444;
+    background: #fa93fa;
+    text-align: center;
+}
+.certinho{
+    padding-top:16%;
+}
+.certinho span{
+    color:#d453d4;
+}
+#monkey{
+    font-family: Arial, sans-serif;
+    font-size: 20px;
+    text-decoration: none;
+    color:red;
+    padding:5px;
+    margin:5px 10px;
+}
+h2{
+    font-size:50px;
+}
+img{
+    padding-top: 7%;
+    padding-left: 45%;
+    align-items: center ;
+    animation: macaco 4s linear infinite;
+}
+@keyframes macaco{
+    0%{transform:scale(.5)}
+    50%{transform:scale(1.5)}
+    100%{transform:scale(.5)}
+}
+#clica{
+    text-align: center;
+}
